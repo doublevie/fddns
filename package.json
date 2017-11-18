@@ -1,0 +1,11 @@
+{
+  "name": "ddns",
+  "version": "1.0.0",
+  "description": "dynamic dns service for em & menumax",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
