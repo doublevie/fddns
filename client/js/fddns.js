@@ -1,5 +1,6 @@
 
 var fddns = {
+  base : 'http://example.com/server/' ,
   name : '' ,
   adress : '' ,
   phone : '' ,
@@ -14,15 +15,10 @@ if (param.cb) this.cb = param.cb ;
 ffdns.run();
 } ,
 run : function(){
-/*  JQUERY IONLY
-if (!typeOf($)) {
 
-    return;
-  }
-*/
 $(function(){
   $.ajax({
-    url: "https://api.github.com/users/jeresig",
+    url: fddns.base,
     dataType: "jsonp",
     jsonpCallback: "logResults"
   });
